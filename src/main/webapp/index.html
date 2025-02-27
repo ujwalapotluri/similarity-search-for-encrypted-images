@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secure and Efficient Image Data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo" style="width:auto;">
+      <!-- <h1><a href="#">Secure and Efficient Image Data</a></h1> 
+      <p><strong>protection with CP-ABE Algorithm</strong></p> -->
+      <img src="images/top.png" alt="" width="1000px" height="170px"/>
+    </div>
+    
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="ImageOwner.jsp">Image Owner</a></li>
+        <li><a href="ImageUser.jsp">Image User</a></li>         
+       <li class="last"><a href="Cloud.jsp">Cloud</a></li>
+        
+        
+      </ul>
+    </div>
+   
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col3">
+  <div id="intro">
+    <div class="fl_left">
+   
+      <p>
+The  system  model  of  SEI  scheme  mainly  contains  three entities,  the  image  owner,  the  image  user,Trusted Authority  and  the  cloud server. Specifically, the image owner is responsible for up-loading  the  encrypted  images  and  the  encrypted  index,and  the  image  user  generates  and  sends  a  query  request to  the  cloud  server,  and  the  cloud  server  is  in  charge  of retrieving  the  result  of  the  query  request  in  the  encrypted images.
+      </p> 
+    
+    </div>
+    <div class="fl_right"><img src="images/tp.png" alt="" width="350px" height="300px"/></div>
+    <br class="clear" />
+  </div>
+</div>
+
+<div class="wrapper col5">
+  <div id="container">
+    <div id="content">
+      <h2>About This Project</h2>
+      <p align="justify">
+  Secure and Efficient Image Data Protection with CP-ABE is a method for protecting theconfidentiality and integrity of image data. It uses a combination of ciphertext policy attributebased encryption (CP-ABE) and a hash function to ensure that only authorized users canaccess and verify the integrity of the data.CP-ABE is a type of encryption that allows the dataowner to specify a policy that must be met in order to decrypt the data. For example, thepolicy could specify that a user must be a member of a certain group or have a certainclearance level. The data owner then encrypts the data using the public key of the intendedrecipient, and the recipient uses their private key to decrypt it.A hash function is amathematical function that takes an input of any length and produces an output of a fixedalength. This means that if the input datachanged even slightly, the hash value will alsochange. This makes hash functions ideal for verifying the integrity of data. When using Secureand Efficient Image Data Protection with CP-ABE, the data owner first encrypts the imagedata using CP-ABE. The data owner then calculates a hash value for the encrypted data andstores it with the encrypted data. When a user wants to access the image data, they firstpresent a valid certificate that proves that they hold the required attributes. The certificate isthen used to decrypt the data using the private key. The user can then verify the integrity ofthe data by calculating a hash value for the decrypted data and comparing it to the hash valuethat was stored with the encrypted data.Secure and Efficient Image Data Protection with CPABE provides a secure and efficient way to protect the confidentiality and integrity of imagedata. The scheme is easy to use and can be implemented in a variety of environments.    </p>
+
+
+    </div>
+    <div id="column">
+     
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col6">
+  <div id="footer">
+    
+    
+    
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col7">
+  <div id="copyright">
+    <p class="fl_left">Image Retrieval @2024</p>
+     <br class="clear" />
+  </div>
+</div>
+</body>
+</html>
