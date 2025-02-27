@@ -18,6 +18,4 @@ To run this project <br>
 3. create folder and include all file and folders present in this repo in your eclipse<br>
 4. provide tomact libraries adn other as mentioned<br>
 5. run the index.html file<br>
-### Architecture and over of the project
 
-![Screenshot (33)](https://github.com/user-attachments/assets/f0d58ee4-0186-4a27-ab33-c8bf2e5ea7f3)
